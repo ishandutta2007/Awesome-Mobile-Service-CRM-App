@@ -9,13 +9,8 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Salesforce Mobile](#salesforce-mobile)
-  - [Zendesk Support Mobile](#zendesk-support-mobile)
-  - [ServiceNow Mobile Agent](#servicenow-mobile-agent)
-  - [HubSpot Mobile CRM](#hubspot-mobile-crm)
-  - [Intercom Inbox Mobile](#intercom-inbox-mobile)
-  - [Pipedrive Mobile](#pipedrive-mobile)
 - [Open-Source Software](#-open-source-software)
   - [BottleCRM](#bottlecrm)
   - [TwentyMobile](#twentymobile)
@@ -26,33 +21,24 @@
 
 ---
 
+## 🌐 Sector Overview & Market Dynamics
+
+The global Mobile CRM and Field Service Management (FSM) sector is estimated at ~$25B–$30B and projected to surpass $60B+ by the early 2030s (growing at ~11–12% CAGR). The market is moderately concentrated at the enterprise layer—dominated by platform giants like Salesforce and ServiceNow—while remaining highly fragmented across mid-market and SME niches where specialized vertical solutions and open-source alternatives thrive.
+
+---
+
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Mobile Service and CRM platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Mobile Service and CRM platforms. These are not open-source but are included as reference points for feature comparison. Sorted descending by company scale (market cap / valuation).
 
-### Salesforce Mobile
-**Type:** Full CRM in a native mobile app
-Salesforce Mobile brings the full power of Salesforce CRM to iOS and Android, with access to accounts, contacts, opportunities, cases, and custom objects. It supports offline access, push notifications, and Lightning Web Components for custom mobile experiences. It is the natural choice for organizations already standardized on Salesforce.
-
-### Zendesk Support Mobile
-**Type:** Agent workspace on mobile devices
-Zendesk Support Mobile provides agents with the ability to view and respond to tickets, manage conversations, and access customer context from their phones. It supports push notifications, ticket updates, and internal notes, making it suitable for support teams that need to respond outside the office.
-
-### ServiceNow Mobile Agent
-**Type:** Field and service operations on mobile
-ServiceNow Mobile Agent provides technicians and agents with mobile access to work orders, incidents, and tasks. It supports offline access, barcode scanning, and location services, making it suitable for field service operations where connectivity is intermittent.
-
-### HubSpot Mobile CRM
-**Type:** CRM and sales tools in a mobile app
-HubSpot Mobile CRM provides access to contacts, companies, deals, and tasks, with the ability to log calls, send emails, and manage pipelines from a phone. It is positioned for sales teams already using HubSpot CRM, with a free tier for basic functionality.
-
-### Intercom Inbox Mobile
-**Type:** Customer conversations on mobile
-Intercom Inbox Mobile allows support agents to view and respond to customer conversations across channels from their phones. It supports push notifications, internal notes, and assignment, making it suitable for teams using Intercom for conversational support.
-
-### Pipedrive Mobile
-**Type:** Sales pipeline management on mobile
-Pipedrive Mobile provides access to deals, contacts, and activities, with the ability to update pipeline stages, log calls, and schedule activities from a phone. It is positioned for sales teams already using Pipedrive, with a focus on visual pipeline management.
+| Platform | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limits | Key Capabilities & Mobile Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salesforce Mobile** | ~$179B Market Cap (~$38B+ Rev) | $25 / user / month (Starter Suite) | 30-day free trial (up to 10 users, full CRM features, no credit card required) | Full CRM on iOS & Android; offline access, custom objects, push alerts, Lightning Web Components. |
+| **ServiceNow Mobile Agent** | ~$106B Market Cap (~$15B+ Rev) | ~$100 / fulfiller user / month (FSM entry tier, custom enterprise contract) | Free developer instance (Personal Developer Instance via developer program; 14-day inactivity timeout); no production free tier | Field service & operations; work orders, dispatching, asset tracking, barcode scanning, offline mode. |
+| **HubSpot Mobile CRM** | ~$28B Market Cap (~$3.1B+ Rev) | $15 / seat / month (Starter Customer Platform) or $0 (Free CRM) | Free forever plan (up to 5 users, 1,000,000 contacts, core CRM/ticket tools); 14-day trial for paid tiers | Contact & pipeline management, call logging, email tracking, shared team inbox on mobile. |
+| **Zendesk Support Mobile** | ~$10.2B Buyout Valuation (~$2B+ Rev) | $19 / agent / month (Support Team, billed annually) | 14-day free trial (Suite Professional features, up to 5 agents, no credit card required) | Mobile agent workspace; ticket triaging, omnichannel customer context, internal notes, macros. |
+| **Pipedrive Mobile** | ~$1.5B Valuation (~$250M+ Rev) | $14 / user / month (Essential, billed annually) | 14-day free trial (full feature access across tiers, no credit card required) | Visual sales pipeline on mobile, deal tracking, mobile caller ID, contact syncing, audio notes. |
+| **Intercom Inbox Mobile** | ~$1.3B Valuation (~$250M+ Rev) | $29 / seat / month (Essential tier) | 14-day free trial (full helpdesk & inbox features, no credit card required) | Conversational support inbox; omnichannel messaging, real-time ticket assignment, push notifications. |
 
 ---
 
