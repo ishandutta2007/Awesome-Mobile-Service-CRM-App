@@ -1,37 +1,59 @@
-# Awesome-Mobile-Service-CRM-App
-
 # Awesome Mobile Service & CRM App
 
-> A curated list of top Mobile Service and CRM App platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing customer relationships, support tickets, and field operations from mobile devices.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobile Service and CRM App Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Service-CRM-App?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Service-CRM-App?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 📱 **Awesome Mobile Service & CRM App** is a curated list of top-tier mobile CRM, customer service helpdesk, and field service management (FSM) platforms. Featuring both enterprise cloud SaaS solutions and community-driven, self-hosted open-source apps built with Flutter, React Native, and native mobile technologies.
+>
+> 🌟 **Star this repository** if you find it helpful for your operations, agency, or mobile app architecture!
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-  - [BottleCRM](#bottlecrm)
-  - [TwentyMobile](#twentymobile)
-  - [Chatwoot Mobile](#chatwoot-mobile)
-  - [FreeScout (PWA)](#freescout-pwa)
-  - [Customer Database](#customer-database)
-  - [CLIVORA](#clivora)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [1. TwentyMobile](#1-twentymobile-)
+  - [2. Chatwoot Mobile](#2-chatwoot-mobile-)
+  - [3. FreeScout (PWA)](#3-freescout-pwa-)
+  - [4. BottleCRM](#4-bottlecrm-)
+  - [5. Flutter CRM](#5-flutter-crm-)
+  - [6. Customer Database](#6-customer-database-)
+  - [7. ERPNext Field Service Management](#7-erpnext-field-service-management-)
+  - [8. CLIVORA](#8-clivora-)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🤝 Contributing Guidelines](#-contributing-guidelines)
+- [📈 Star History](#-star-history)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📄 License](#-license)
 
 ---
 
 ## 🌐 Sector Overview & Market Dynamics
 
-The global Mobile CRM and Field Service Management (FSM) sector is estimated at ~$25B–$30B and projected to surpass $60B+ by the early 2030s (growing at ~11–12% CAGR). The market is moderately concentrated at the enterprise layer—dominated by platform giants like Salesforce and ServiceNow—while remaining highly fragmented across mid-market and SME niches where specialized vertical solutions and open-source alternatives thrive.
+The global **Mobile CRM** and **Field Service Management (FSM)** sectors are estimated at **~$25B–$30B** and projected to surpass **$60B+** by the early 2030s, compounding at an annual growth rate (~11–12% CAGR). The market structure exhibits a dual dynamic:
+
+- **Enterprise Concentration:** The top tier is dominated by large platform giants (*Salesforce*, *ServiceNow*, *HubSpot*) offering deeply integrated suites spanning customer service, field technician dispatching, omnichannel routing, and AI agents.
+- **Mid-Market & SME Fragmentation:** The SME and mid-market spaces remain highly fragmented. Businesses frequently seek lightweight, self-hostable, or offline-first mobile apps (*BottleCRM*, *TwentyMobile*, *Chatwoot*, *FreeScout*) to maintain full data privacy, avoid per-seat subscription lock-in, and empower field workers in intermittent-connectivity environments.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Mobile Service and CRM platforms. These are not open-source but are included as reference points for feature comparison. Sorted descending by company scale (market cap / valuation).
+Enterprise and commercial cloud-hosted mobile CRM and service platforms. Sorted descending by company scale (market capitalization / valuation).
 
-| Platform | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limits | Key Capabilities & Mobile Focus |
+| Platform | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limits | Key Mobile Capabilities & Specialization |
 | :--- | :--- | :--- | :--- | :--- |
 | **Salesforce Mobile** | ~$179B Market Cap (~$38B+ Rev) | $25 / user / month (Starter Suite) | 30-day free trial (up to 10 users, full CRM features, no credit card required) | Full CRM on iOS & Android; offline access, custom objects, push alerts, Lightning Web Components. |
 | **ServiceNow Mobile Agent** | ~$106B Market Cap (~$15B+ Rev) | ~$100 / fulfiller user / month (FSM entry tier, custom enterprise contract) | Free developer instance (Personal Developer Instance via developer program; 14-day inactivity timeout); no production free tier | Field service & operations; work orders, dispatching, asset tracking, barcode scanning, offline mode. |
@@ -44,112 +66,133 @@ Commercial, cloud-hosted Mobile Service and CRM platforms. These are not open-so
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Mobile Service and CRM tools. The open-source ecosystem spans **full multi-tenant CRM with native Flutter app**, **native mobile app for Twenty CRM**, **support platform with React Native app**, **PWA-based helpdesk**, **Android-native customer database**, and **offline-first freelancer OS**.
+Self-hosted, community-driven mobile customer service, CRM, and field management solutions. Repositories are **sorted descending by star counts** and equipped with direct links to their stargazers page.
 
-### BottleCRM
-**Stack:** Django REST / SvelteKit / Flutter / PostgreSQL | **License:** MIT
-BottleCRM is a free, open-source, self-hosted, multi-tenant CRM with a **native Flutter mobile app for iOS and Android** . Key capabilities include:
-- **Full customer lifecycle**: leads, accounts, contacts, opportunities, support tickets, tasks, and invoices 
-- **Multi-tenant by design**: PostgreSQL Row-Level Security enforces tenant isolation at the database layer, not just application code 
-- **Agent-ready REST API**: point Claude, Cursor, Codex, or any AI agent at the API with a personal access token, inheriting the user's role, org, and permissions; an OpenAPI schema ships with it 
-- **Real support tooling**: full helpdesk with SLA timers, approvals, escalations, macros, and a knowledge base 
-- **Stack you can hack on**: Django 6 / DRF and Svelte 5, not a bespoke framework 
-- **Docker deployment**: `docker compose up --build` 
+### 1. TwentyMobile [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)
+- **Repository:** [twentyhq/twenty](https://github.com/twentyhq/twenty) & [adlucio87/TwentyMobile](https://github.com/adlucio87/TwentyMobile)
+- **Stack:** Native iOS / iPadOS / macOS (Swift) | **License:** AGPL-3.0
+- **Overview:** TwentyMobile brings the flagship open-source Twenty CRM directly to Apple platforms. Built as an offline-first companion with native UI responsiveness:
+  - **Direct Self-Hosted Sync:** Connects directly to your own self-hosted or managed Twenty CRM instance without third-party telemetry.
+  - **Dynamic Workspace & Custom Objects:** Full support for custom tables, dynamic field views, and relation mapping.
+  - **Camera Business Card Scanner:** On-device OCR extracts contact information, emails, and company names directly into leads without an active internet connection.
+  - **Local Reminders:** Smart background alerts notify field agents 30 minutes before task deadlines.
+- **Best For:** Teams and solopreneurs utilizing Twenty CRM who require an Apple-native client.
 
-With an MIT license and no per-seat pricing, it is a genuinely self-hosted alternative to Salesforce, HubSpot, and Pipedrive [citation:10].
-**Best for:** Teams wanting a self-hosted CRM with a native mobile app and a real support helpdesk, accepting the Django/Flutter stack.
+### 2. Chatwoot Mobile [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)
+- **Repository:** [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) & [chatwoot/chatwoot-mobile-app](https://github.com/chatwoot/chatwoot-mobile-app)
+- **Stack:** React Native / Ruby on Rails | **License:** MIT
+- **Overview:** The official cross-platform mobile client for Chatwoot, an omnichannel customer service and live-chat platform:
+  - **Omnichannel Inbox on Mobile:** Unified inbox spanning live chat, WhatsApp, Twitter/X, Facebook Messenger, SMS, and email.
+  - **Push Notifications & SLAs:** Instant push notifications for incoming conversations, priority assignments, and ticket escalations.
+  - **Agent Collaboration:** Internal notes, mentions, canned responses, and conversation assignment directly from iOS and Android devices.
+- **Best For:** Customer support teams wanting a mature, mobile-first helpdesk app connected to a self-hosted Chatwoot instance.
 
-### TwentyMobile
-**Stack:** Native iOS/iPadOS/Mac (Apple platforms) | **License:** AGPL-3.0
-TwentyMobile is the first native mobile app for **Twenty CRM**, connecting directly to a self-hosted or managed Twenty instance . Key features include:
-- **Your data stays yours**: connects directly to your own Twenty CRM instance, with no third-party servers, no data collection, and no subscriptions 
-- **Today screen**: overdue tasks, today's priorities, tomorrow's agenda, and recent contacts in one view 
-- **Custom objects**: access standard and custom workspace tables, with dynamic layouts and field visibility toggling 
-- **Business card scanning**: camera-based extraction of name, email, phone, and company, saved directly to CRM without internet 
-- **Smart reminders**: local push notifications 30 minutes before task deadlines 
-- **100% open source** (AGPL-3.0) with a built-in demo mode 
+### 3. FreeScout (PWA) [![Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers)
+- **Repository:** [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout)
+- **Stack:** PHP / Laravel / MySQL (Progressive Web App) | **License:** AGPL-3.0
+- **Overview:** A lightweight, self-hosted helpdesk and shared inbox with a mobile-optimized Progressive Web Application (PWA):
+  - **Zero App Store Overhead:** Installable directly from mobile web browsers on iOS and Android with Web Push notification support.
+  - **Unlimited Helpdesk:** No per-user or per-mailbox fees; supports shared mailboxes, internal team chats, and collision detection.
+  - **Broad Integration Ecosystem:** Connects with WhatsApp, Telegram, Slack, and Microsoft 365 / Google Workspace via OAuth.
+- **Best For:** Small-to-medium businesses wanting a lightweight mobile helpdesk without native store app deployment complexities.
 
-It is designed for freelancers and solopreneurs, with native support for iPhone, iPad, and Mac (M1+) [citation:4].
-**Best for:** Teams already using Twenty CRM wanting a native Apple mobile app with custom object support and business card scanning, accepting the iOS-only scope.
+### 4. BottleCRM [![Stars](https://img.shields.io/github/stars/Django-CRM/Django-CRM?style=social&color=white)](https://github.com/Django-CRM/Django-CRM/stargazers)
+- **Repository:** [Django-CRM/Django-CRM](https://github.com/Django-CRM/Django-CRM)
+- **Stack:** Django 6 / Django REST Framework / Svelte 5 / Flutter | **License:** MIT
+- **Overview:** A multi-tenant, fully featured CRM and support suite equipped with a dedicated Flutter client:
+  - **Full Customer Lifecycle:** Leads, contacts, sales pipelines, billing invoices, and complete support ticket management.
+  - **Row-Level Security Isolation:** Enforces multi-tenancy at the PostgreSQL layer for enterprise security compliance.
+  - **Agent-Ready Architecture:** Ships with comprehensive OpenAPI specifications and personal access tokens for autonomous AI agent integrations.
+- **Best For:** Organizations seeking a 100% MIT-licensed, full-scope CRM and helpdesk system with a Flutter companion app.
 
-### Chatwoot Mobile
-**Stack:** React Native | **License:** MIT
-Chatwoot Mobile is the official React Native mobile app for Chatwoot, the open-source omnichannel support platform. It provides agents with access to conversations across live chat, email, WhatsApp, social channels, and more from their phones. The app supports push notifications, conversation assignment, and internal notes, with the same functionality as the web version. With Chatwoot's 37,000+ stars and active development, it is the most mature open-source support mobile app available [citation:8].
-**Best for:** Teams using Chatwoot for support wanting a native mobile app for agents, accepting the Chatwoot backend dependency.
+### 5. Flutter CRM [![Stars](https://img.shields.io/github/stars/MicroPyramid/flutter-crm?style=social&color=white)](https://github.com/MicroPyramid/flutter-crm/stargazers)
+- **Repository:** [MicroPyramid/flutter-crm](https://github.com/MicroPyramid/flutter-crm)
+- **Stack:** Flutter / Dart / Material Design 3 | **License:** MIT
+- **Overview:** A dedicated cross-platform mobile CRM application codebase designed specifically for field agents:
+  - **Offline-First Synchronization:** Local database caching allows technicians and reps to view leads and log contacts with zero network connection.
+  - **Modular Architecture:** Clean separation of lead tracking, opportunity stages, tasks, call logs, and support cases.
+  - **Modern UI:** Material 3 design system supporting dark mode, dynamic layouts, and cross-platform compilation (Android & iOS).
+- **Best For:** Developers and businesses looking for an open-source Flutter mobile CRM foundation to customize and rebrand.
 
-### FreeScout (PWA)
-**Stack:** PHP / Laravel / MySQL | **License:** AGPL-3.0 (open-core)
-FreeScout is a lightweight open-source helpdesk and shared inbox, with a **Progressive Web App (PWA) for phones and desktops** that is installable from the browser and supports Web Push notifications [citation:5][citation:14]. Key features include:
-- **Omnichannel**: email, WhatsApp, Telegram, Facebook, Slack, Live Chat, and more in one place 
-- **Unlimited agents, tickets, and mailboxes** with no per-seat fees 
-- **Mobile-friendly**: the PWA supports agents and administrators on mobile devices 
-- **Email integration**: SMTP, IMAP, POP3, with OAuth for Microsoft 365 and Google Workspace 
-- **Collision detection**, internal notes, and powerful search 
+### 6. Customer Database [![Stars](https://img.shields.io/github/stars/schorschii/CustomerDB-Android?style=social&color=white)](https://github.com/schorschii/CustomerDB-Android/stargazers)
+- **Repository:** [schorschii/CustomerDB-Android](https://github.com/schorschii/CustomerDB-Android)
+- **Stack:** Native Android (Java) / MySQL | **License:** GPL-3.0
+- **Overview:** A lightweight Android app engineered to keep professional customer records separate from personal address books:
+  - **Self-Hosted Database Sync:** Synchronizes directly with a private MySQL server, keeping full ownership of records on-premise.
+  - **Caller Identification:** Displays client information on incoming calls when numbers match database entries.
+  - **Privacy & GDPR Compliance:** Built-in tools for data export, birthday reminders, VCF import/export, and customer categorization.
+- **Best For:** Freelancers and tradespeople who need a simple, self-hosted contact manager on their Android devices.
 
-It is email-centric rather than a full CRM, but its PWA approach means no native app install is required [citation:5].
-**Best for:** Small teams wanting a lightweight, self-hosted helpdesk accessible on mobile via PWA without app store distribution, accepting the email-centric model.
+### 7. ERPNext Field Service Management [![Stars](https://img.shields.io/github/stars/Beveren-Software-Inc/Field_Service_Management?style=social&color=white)](https://github.com/Beveren-Software-Inc/Field_Service_Management/stargazers)
+- **Repository:** [Beveren-Software-Inc/Field_Service_Management](https://github.com/Beveren-Software-Inc/Field_Service_Management)
+- **Stack:** React 19 / Frappe / ERPNext | **License:** MIT
+- **Overview:** An open-source Field Service Management (FSM) module and mobile-ready interface integrated directly with the ERPNext ecosystem:
+  - **Field Service Scheduling:** Dispatch boards, technician appointment scheduling, and customer location mapping.
+  - **On-Site Execution:** Work order checklists, spare parts consumption, and signature capture for completed service visits.
+  - **Unified Accounting:** Directly converts service appointments into invoices within ERPNext.
+- **Best For:** Field service operators, HVAC, repair, and maintenance teams already running on ERPNext.
 
-### Customer Database
-**Stack:** Android-native | **License:** Open Source (GitHub)
-Customer Database is a simple, open-source Android app designed for small companies for easy and secure customer management on smartphones and tablets, separated from private contacts [citation:13]. Key features include:
-- **Self-hosted sync**: sync data with a self-hosted MySQL server to prevent loss and enable multi-device sync 
-- **EU-GDPR tools**: built-in compliance features 
-- **Customer management**: groups, birthdays, vouchers, newsletters, VCF import/export, PDF export 
-- **Caller identification**: shows customer name for incoming calls if the number is stored 
-- **Optional paid features**: custom fields, calendar, file attachments, input-only mode, design options 
-
-It is a focused customer database rather than a full CRM, but it is one of the few Android-native open-source options [citation:13].
-**Best for:** Small businesses wanting a simple, Android-native customer database with self-hosted sync and GDPR tools, accepting a narrow CRM scope.
-
-### CLIVORA
-**Stack:** Flutter / Drift / Supabase | **License:** Open Source (GitHub)
-CLIVORA is an offline-first Flutter mobile application positioned as an **open-source Freelancer OS** for independent professionals, agencies, and clients [citation:1]. Key features include:
-- **CRM and business OS**: contacts CRM, client workspaces, projects, tasks, milestones, invoices, and expenses 
-- **Offline-first sync**: mobile client persists state locally and synchronizes via a **durable transactional outbox** with deterministic conflict resolution 
-- **Grounded AI assistance**: retrieval-augmented generation grounded in actual CRM data with human-in-the-loop review 
-- **CLIVORA Connect**: talent profiles, job listings, proposals, and mutual connections 
-- **Supabase backend**: managed PostgreSQL with Row Level Security 
-
-Its synchronization engine is documented in academic research on Zenodo [citation:1].
-**Best for:** Freelancers and independent professionals wanting an offline-first mobile CRM with invoicing and AI assistance, accepting a newer project with a Supabase dependency.
-
----
-
-## 📊 Comparison at a Glance
-
-| Software | License | Stack | Native Mobile | CRM Features | Self-Hosted | Best For |
-|----------|---------|-------|---------------|--------------|-------------|----------|
-| **Salesforce Mobile** | Proprietary | Cloud | ✅ iOS/Android | ✅ Full | ❌ | Salesforce organizations |
-| **Zendesk Support Mobile** | Proprietary | Cloud | ✅ iOS/Android | (Support) | ❌ | Support agents |
-| **ServiceNow Mobile** | Proprietary | Cloud | ✅ iOS/Android | (Field service) | ❌ | Field operations |
-| **BottleCRM** | MIT | Django/Flutter | ✅ Flutter | ✅ Full + helpdesk | ✅ | Self-hosted CRM + mobile |
-| **TwentyMobile** | AGPL-3.0 | Native Apple | ✅ iOS/iPad/Mac | ✅ Twenty CRM | ✅ (Twenty) | Twenty CRM users |
-| **Chatwoot Mobile** | MIT | React Native | ✅ iOS/Android | (Support) | ✅ (Chatwoot) | Chatwoot support teams |
-| **FreeScout (PWA)** | AGPL-3.0 | PHP/Laravel | PWA | (Helpdesk) | ✅ | Lightweight helpdesk on mobile |
-| **Customer Database** | Open Source | Android | ✅ Android | (Customer DB) | ✅ (MySQL) | Simple Android customer management |
-| **CLIVORA** | Open Source | Flutter/Supabase | ✅ Flutter | ✅ Freelancer CRM | ✅ (Supabase) | Offline-first freelancer CRM |
+### 8. CLIVORA [![Stars](https://img.shields.io/github/stars/UsmanGhias/clivora?style=social&color=white)](https://github.com/UsmanGhias/clivora/stargazers)
+- **Repository:** [UsmanGhias/clivora](https://github.com/UsmanGhias/clivora)
+- **Stack:** Flutter / Drift / Supabase PostgreSQL | **License:** GPL-3.0
+- **Overview:** An offline-first mobile application designed as an open-source "Freelancer Operating System":
+  - **Transactional Outbox Sync:** Local Drift database persists CRM events offline and syncs deterministically with Supabase.
+  - **Integrated Business OS:** Unifies contacts, client workspaces, project milestones, invoices, and expense tracking.
+  - **Grounded AI Assistance:** In-app AI drafts proposals and project updates grounded in local CRM data.
+- **Best For:** Freelancers, creative agencies, and solo consultants needing an offline-first mobile CRM with integrated invoicing.
 
 ---
 
-## 🤝 Contributing
+## 📊 Feature Comparison Matrix
 
-Contributions are welcome! If you know of an open-source Mobile Service or CRM App that should be listed here, please open a pull request with:
+| Platform / Tool | Type | License | Primary Tech Stack | Native Mobile App | CRM Scope | Field Operations & Helpdesk | Self-Hostable |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Salesforce Mobile** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ✅ Enterprise CRM | ✅ Full Service / FSM | ❌ Cloud only |
+| **ServiceNow Mobile** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ⚠️ ITSM / CSM | ✅ Field Service (FSM) | ❌ Cloud only |
+| **HubSpot Mobile** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ✅ Inbound CRM | ⚠️ Support Tickets | ❌ Cloud only |
+| **Zendesk Support** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ⚠️ Service CRM | ✅ Omnichannel Desk | ❌ Cloud only |
+| **Pipedrive Mobile** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ✅ Sales CRM | ❌ Pipeline focus | ❌ Cloud only |
+| **Intercom Inbox** | SaaS | Commercial | Cloud Native | ✅ iOS / Android | ⚠️ Chat CRM | ✅ Live Conversations | ❌ Cloud only |
+| **TwentyMobile** | Open Source | AGPL-3.0 | Native iOS / Swift | ✅ Apple Platforms | ✅ Full Modern CRM | ⚠️ Tasks & Agenda | ✅ Self-hosted |
+| **Chatwoot Mobile** | Open Source | MIT | React Native | ✅ iOS / Android | ⚠️ Omnichannel Desk | ✅ Live Support Chat | ✅ Self-hosted |
+| **FreeScout (PWA)** | Open Source | AGPL-3.0 | PHP / Laravel | 📱 PWA (Mobile Web) | ⚠️ Helpdesk CRM | ✅ Shared Inbox | ✅ Self-hosted |
+| **BottleCRM** | Open Source | MIT | Django / Flutter | ✅ Flutter | ✅ Full CRM Suite | ✅ Integrated Helpdesk | ✅ Self-hosted |
+| **Flutter CRM** | Open Source | MIT | Flutter / Dart | ✅ iOS / Android | ✅ Lead Management | ⚠️ Offline Tasks | ✅ Self-hosted |
+| **Customer Database** | Open Source | GPL-3.0 | Native Android (Java) | ✅ Android Native | ⚠️ Contact DB | ❌ Contacts / Calls | ✅ Self-hosted |
+| **ERPNext FSM** | Open Source | MIT | React / ERPNext | 📱 Mobile-Ready | ✅ Full ERP / CRM | ✅ Work Orders & FSM | ✅ Self-hosted |
+| **CLIVORA** | Open Source | GPL-3.0 | Flutter / Supabase | ✅ iOS / Android | ✅ Freelancer CRM | ⚠️ Milestones & Tasks | ✅ Self-hosted |
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+---
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
+## 🤝 Contributing Guidelines
 
-**Note on the open-source ecosystem:** The open-source landscape for **mobile CRM and service apps** is **fragmented** compared to desktop/web CRMs. **BottleCRM** is the most complete option, combining a full CRM, helpdesk, and native Flutter mobile app under an MIT license [citation:10]. **TwentyMobile** fills the gap for Twenty CRM users wanting a native Apple app with business card scanning [citation:4]. For support-focused teams, **Chatwoot Mobile** provides the most mature open-source mobile support experience [citation:8], while **FreeScout** offers a PWA approach that avoids app store distribution [citation:5]. **Customer Database** is a focused Android-native option for simple customer management [citation:13], and **CLIVORA** represents a newer offline-first approach for freelancers [citation:1]. No open-source project fully replicates Salesforce Mobile's breadth, but BottleCRM covers the core CRM + mobile workflow comprehensively.
+Contributions are warmly welcomed! If you are developing or using an open-source mobile service, field operations, or CRM project that should be featured:
+
+1. **Fork** the repository and create your feature branch: `git checkout -b feature/new-crm-tool`.
+2. Ensure the tool is **actively maintained** and provides a genuine mobile experience (Native, Flutter, React Native, or PWA).
+3. Update the README with the project's repository, stack, star badge, and feature summary.
+4. Submit a **Pull Request** with a descriptive summary of your additions.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Mobile-Service-CRM-App&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Mobile-Service-CRM-App&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsorship
+
+If this curated collection helps you find the right mobile CRM or field service solution for your business or technical stack, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and share** the repo with your network and team.
+- ☕ **Buy me a coffee & become a sponsor:** Support ongoing open-source maintenance and research directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source community! 🚀
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This collection is released under the [CC0 1.0 Universal](LICENSE) (Public Domain Dedication). All linked software projects and trademarks remain property of their respective creators and maintainers.
