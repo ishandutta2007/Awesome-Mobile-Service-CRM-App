@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Service-CRM-App?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Service-CRM-App?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Service-CRM-App?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Service-CRM-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,7 +66,7 @@ Enterprise and commercial cloud-hosted mobile CRM and service platforms. Sorted 
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven mobile customer service, CRM, and field management solutions. Repositories are **sorted descending by star counts** and equipped with direct links to their stargazers page.
+Self-hosted, community-driven mobile customer service, CRM, and field management solutions. Repositories are **sorted descending by Stars_Counts** and equipped with direct links to their stargazers page.
 
 ### 1. TwentyMobile [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)
 - **Repository:** [twentyhq/twenty](https://github.com/twentyhq/twenty) & [adlucio87/TwentyMobile](https://github.com/adlucio87/TwentyMobile)
@@ -170,7 +170,7 @@ Contributions are warmly welcomed! If you are developing or using an open-source
 
 1. **Fork** the repository and create your feature branch: `git checkout -b feature/new-crm-tool`.
 2. Ensure the tool is **actively maintained** and provides a genuine mobile experience (Native, Flutter, React Native, or PWA).
-3. Update the README with the project's repository, stack, star badge, and feature summary.
+3. Update the README with the project's repository, stack, Stars_Badge, and feature summary.
 4. Submit a **Pull Request** with a descriptive summary of your additions.
 
 ---
